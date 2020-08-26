@@ -19,6 +19,7 @@ namespace ClassRoom
                 new Student("Aukse", 8, 17)
             };
             Console.WriteLine(ThisClass);
+            ThisClass.Seasons();
             Console.ReadKey();
         }
     }

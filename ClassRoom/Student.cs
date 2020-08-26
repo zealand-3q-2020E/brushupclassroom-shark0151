@@ -43,7 +43,9 @@ namespace ClassRoom
 
         public void SetBirthMonth(int Month)
         {
-            BirthMonth = Month;
+            if (Month <= 12 && Month > 0)
+                BirthMonth = Month;
+            else BirthMonth = 1;
         }
 
         public int GetBirthMonth()
