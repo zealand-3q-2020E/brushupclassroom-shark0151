@@ -14,5 +14,15 @@ namespace ClassRoom
         public DateTime SemesterStart;
         public ClassRoom()
         { }
+
+        public override string ToString()
+        {
+            string Output = "This Classroom is " + ClassName + "\n" + "Students are: \n";
+            foreach(Student x in Students)
+            {
+                Output += x.GetName() + "\n";
+            }
+            return Output;
+        }
     }
 }

@@ -20,33 +20,33 @@ namespace ClassRoom
             BirthMonth = NewMonth;
             BirthDay = NewDay;
         }
-        protected void SetName(string NewName)
+        public void SetName(string NewName)
         {
             Name = NewName;
         }
 
-        protected string GetName()
+        public string GetName()
         {
             return Name;
         }
 
-        protected void SetBirthDay(int Day)
+        public void SetBirthDay(int Day)
         {
             //should verify the actual date exists
             BirthDay = Day;
         }
 
-        protected int GetBirthDay()
+        public int GetBirthDay()
         {
             return BirthDay;
         }
 
-        protected void SetBirthMonth(int Month)
+        public void SetBirthMonth(int Month)
         {
             BirthMonth = Month;
         }
 
-        protected int GetBirthMonth()
+        public int GetBirthMonth()
         {
             return BirthMonth;
         }

@@ -18,6 +18,8 @@ namespace ClassRoom
                 new Student("Alex", 3, 21),
                 new Student("Aukse", 8, 17)
             };
+            Console.WriteLine(ThisClass);
+            Console.ReadKey();
         }
     }
 }
