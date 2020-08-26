@@ -12,6 +12,14 @@ namespace ClassRoom
         private int BirthMonth;
         private int BirthDay;
 
+        public Student()
+        { }
+        public Student(string NewName, int NewMonth, int NewDay)
+        {
+            Name = NewName;
+            BirthMonth = NewMonth;
+            BirthDay = NewDay;
+        }
         protected void SetName(string NewName)
         {
             Name = NewName;
